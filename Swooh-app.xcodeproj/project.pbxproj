@@ -14,6 +14,7 @@
 		0FBD2C641FD44F7D0015B869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBD2C621FD44F7D0015B869 /* LaunchScreen.storyboard */; };
 		0FBD2C6F1FD44F7D0015B869 /* Swooh_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD2C6E1FD44F7D0015B869 /* Swooh_appTests.swift */; };
 		0FBD2C7A1FD44F7D0015B869 /* Swooh_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD2C791FD44F7D0015B869 /* Swooh_appUITests.swift */; };
+		0FBD2C891FD4745F0015B869 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD2C881FD4745F0015B869 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0FBD2C751FD44F7D0015B869 /* Swooh-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swooh-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBD2C791FD44F7D0015B869 /* Swooh_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swooh_appUITests.swift; sourceTree = "<group>"; };
 		0FBD2C7B1FD44F7D0015B869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBD2C881FD4745F0015B869 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0FBD2C581FD44F7D0015B869 /* Swooh-app */ = {
 			isa = PBXGroup;
 			children = (
+				0FBD2C871FD4741D0015B869 /* View */,
 				0FBD2C591FD44F7D0015B869 /* AppDelegate.swift */,
 				0FBD2C5B1FD44F7D0015B869 /* ViewController.swift */,
 				0FBD2C5D1FD44F7D0015B869 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				0FBD2C7B1FD44F7D0015B869 /* Info.plist */,
 			);
 			path = "Swooh-appUITests";
+			sourceTree = "<group>";
+		};
+		0FBD2C871FD4741D0015B869 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FBD2C881FD4745F0015B869 /* BorderButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				0FBD2C5C1FD44F7D0015B869 /* ViewController.swift in Sources */,
 				0FBD2C5A1FD44F7D0015B869 /* AppDelegate.swift in Sources */,
+				0FBD2C891FD4745F0015B869 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
