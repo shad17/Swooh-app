@@ -55,6 +55,9 @@
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" red="0.99799142270758967" green="1" blue="0.98723896499435571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dCA-Yc-kmi" kind="show" id="imn-8P-DiW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwQ-fe-hxg">
                                 <rect key="frame" x="45.5" y="228" width="284" height="38"/>
@@ -173,6 +176,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="0.99799142269999996" green="1" blue="0.98723896499999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="zJL-8S-QTK" kind="show" id="6Ev-ws-MNE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -287,17 +293,6 @@
                         <viewLayoutGuide key="safeArea" id="X3G-yU-TpO"/>
                     </view>
                 </viewController>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8O-O8-DBw" customClass="BorderButton" customModule="Swooh_app" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.3986782962" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="50" id="SEN-S1-0kh"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
-                    <state key="normal" title="Mens">
-                        <color key="titleColor" red="0.99799142269999996" green="1" blue="0.98723896499999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
-                </button>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJE-Ue-zNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1485.5999999999999" y="133.5832083958021"/>
