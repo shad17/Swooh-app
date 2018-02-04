@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -136,6 +136,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" red="0.99799142269999996" green="1" blue="0.98723896499999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="dCA-Yc-kmi" eventType="touchUpInside" id="QmT-cb-HNX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6r-8P-IGp" customClass="BorderButton" customModule="Swooh_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="75" width="335" height="50"/>
@@ -147,6 +150,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" red="0.99799142269999996" green="1" blue="0.98723896499999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="dCA-Yc-kmi" eventType="touchUpInside" id="eUM-oD-N6C"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ml-mX-ZWU" customClass="BorderButton" customModule="Swooh_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="150" width="335" height="50"/>
@@ -158,10 +164,13 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" red="0.99799142269999996" green="1" blue="0.98723896499999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="OnCoedTapped:" destination="dCA-Yc-kmi" eventType="touchUpInside" id="pLY-J1-Iz1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUe-2k-pjG" customClass="BorderButton" customModule="Swooh_app" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUe-2k-pjG" customClass="BorderButton" customModule="Swooh_app" customModuleProvider="target">
                                 <rect key="frame" x="20" y="587" width="335" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.3986782962" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -205,6 +214,7 @@
                         <viewLayoutGuide key="safeArea" id="7RM-Dp-ys6"/>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="fUe-2k-pjG" id="qkv-u9-p26"/>
                         <segue destination="zJL-8S-QTK" kind="show" identifier="skillVCSegue" id="k82-03-9wV"/>
                     </connections>
                 </viewController>
